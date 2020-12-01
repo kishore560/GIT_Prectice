@@ -18,4 +18,6 @@ a1=1.90 # Float
 # Print the data using echo command
 echo a = $a
 
-# Also use ${a}, this is must
+# Also use ${a}, this is must in some scenarios
+
+echo a1 = $a1cm
