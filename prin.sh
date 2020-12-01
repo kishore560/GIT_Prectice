@@ -22,3 +22,15 @@ echo a = $a
 # Also use ${a}, this is must in some scenarios
 
 echo a1 = ${a1}cm
+
+## Summary , If you have any requirement of reusing the same value then declare it in variable.
+
+# All the time we cannot hardcode the value to a variable. It should dynamically get the values. But How ?
+
+# 1. Command Substitution
+
+# Syntax : VAR=$(command)   or VAR=$(command1 | command2)  or VAR=$(command1 ; command2)
+
+DATE =$(date)
+
+echo Today data is $DATE
