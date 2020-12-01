@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/ansible" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/just-spot-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-cart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-catalogue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-mongo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-payment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-shipping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rs-user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shell-scripting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/terraform" vcs="Git" />
+  </component>
+</project>
