@@ -34,3 +34,9 @@ echo a1 = ${a1}cm
 DATE=$(date +%F)
 
 echo Today data is $DATE
+
+# 2. Arithematic Substitution
+
+ADD=$((1+3))
+BIGEXPRESSION=$((1+2-3/4*5-6+7*8/9))
+echo $BIGEXPRESSION
