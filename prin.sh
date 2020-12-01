@@ -44,4 +44,4 @@ echo -e "New\t\t\tWorld"
 
 # Syntax: echo -e "\e[31mMESSAGE\e[0m",  echo -e "\e[43mMESSAGE\e[0m",  echo -e "\e[31;43mMESSAGE\e[0m"
 
-echo -e "\e[31mHello in Yello color\e[0m"
+echo -e "\e[31mHello in Yellow color\e[0m"
