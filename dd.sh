@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p 'Enter fruit Name[orange|apple]: ' fruit_name
+read -p 'Enter fruit Name[orange|kishore]: ' fruit_name
 
 case $fruit_name in
   orange)
