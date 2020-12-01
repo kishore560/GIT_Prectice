@@ -26,4 +26,4 @@ echo -e "Line11\nLine22"
 
 # Tab space is printed by \t
 
-echi -e "New\t\t\tWorld"
+echo -e "New\t\t\tWorld"
