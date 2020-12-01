@@ -20,4 +20,4 @@ echo a = $a
 
 # Also use ${a}, this is must in some scenarios
 
-echo a1 = $a1cm
+echo a1 = ${a1}cm
