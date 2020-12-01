@@ -27,3 +27,21 @@ echo -e "Line11\nLine22"
 # Tab space is printed by \t
 
 echo -e "New\t\t\tWorld"
+
+# Observation : If you want multiple tab spaces you have to multiple esc seq, Some script langs might allow you go with \3t. But shell does not allow that.
+
+# Colors grabs the user attention.
+
+#                   ForeGround            Background
+# Red                   31                      41
+# Green                 32                      42
+# Yellow                33                      43
+# Blue                  34                      44
+# Magenta               35                      45
+# Cyan                  36                      46
+
+# How to use that color, Where I can specify
+
+# Syntax: echo -e "\e[31mMESSAGE\e[0m",  echo -e "\e[43mMESSAGE\e[0m",  echo -e "\e[31;43mMESSAGE\e[0m"
+
+echo -e "\e[31mHello in Yello color\e[0m"
