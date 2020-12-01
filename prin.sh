@@ -46,4 +46,4 @@ echo -e "New\t\t\tWorld"
 
 echo -e "\e[323mHello in Yellow Color\e[0m"
 echo -e "\e[46mHello in Cyan Background color\e[0m"
-echo -e "\e[31;46mHello in Red font and cyan Background color\e[0m"
+echo -e "\e[31;43mHello in Red font and cyan Background color\e[0m"
