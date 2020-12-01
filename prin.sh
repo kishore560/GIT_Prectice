@@ -2,9 +2,10 @@
 
 # variable will help you in times of replacing the value.
 
-echo Hello Kishore, Welcome traning
-echo DevOps traning timingd are 6AM IST
-echo DevOps traning course covers shell scrpting
+Course=AWS
+echo Hello Kishore, Welcome to ${Course} traning
+echo ${Course}  traning timingd are 6AM IST
+echo ${Course}  traning course covers shell scrpting
 
 ## Declare variable
 a=10 # Number
