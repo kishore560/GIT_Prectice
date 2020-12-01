@@ -31,6 +31,6 @@ echo a1 = ${a1}cm
 
 # Syntax : VAR=$(command)   or VAR=$(command1 | command2)  or VAR=$(command1 ; command2)
 
-DATE=$(date)
+DATE=$(date +%F)
 
 echo Today data is $DATE
