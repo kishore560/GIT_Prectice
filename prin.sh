@@ -1,50 +1,21 @@
 #!/bin/bash
 
-# echo and printf are two commands can help in printing.
-# we use echo command because  it is more user friendly, yet supports all the requirements.
+# variable will help you in times of replacing the value.
 
-echo Hello World
+echo Hello Kishore, Welcome traning
+echo DevOps traning timingd are 6AM IST
+echo DevOps traning course covers shell scrpting
 
-# It prints Hello world on the screen.
+## Declare variable
+a=10 # Number
+aa=xyz # characters
+aaa=abc123 # string
+a1=1.90 # Float
 
-# Print two lines
-echo line1
-echo line2
+# Observation, shell does not bother about data types by default. Everything is a string
 
-# Print two lines single echo command
-# This can be done with helop of escape sequences
+## Access the variable
+# Print the data using echo command
+echo a = $a
 
-# \n - new line
-# \t - new tab
-# \e - new color
-
-echo -e "Line11\nLine22"
-
-# Observations:
-# 1. You should use -e option when use escape sequences, It is a kind of enabling esc seq
-# 2. Input has to be in quotes, double quotes is preferred
-
-# Tab space is printed by \t
-
-echo -e "New\t\t\tWorld"
-
-# Observation : If you want multiple tab spaces you have to multiple esc seq, Some script langs might allow you go with \3t. But shell does not allow that.
-
-# Colors grabs the user attention.
-
-#                   ForeGround            Background
-# Red                   31                      41
-# Green                 32                      42
-# Yellow                33                      43
-# Blue                  34                      44
-# Magenta               35                      45
-# Cyan                  36                      46
-
-# How to use that color, Where I can specify
-
-# Syntax: echo -e "\e[31mMESSAGE\e[0m",  echo -e "\e[43mMESSAGE\e[0m",  echo -e "\e[31;43mMESSAGE\e[0m"
-
-echo -e "\e[33mHello in Yellow Color\e[0m"
-echo -e "\e[46mHello in Cyan Background color\e[0m"
-echo -e "\e[31;43mHello in Red font and cyan Background color\e[0m"
-
+# Also use ${a}, this is must

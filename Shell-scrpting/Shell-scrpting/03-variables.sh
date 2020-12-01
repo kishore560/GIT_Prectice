@@ -18,3 +18,6 @@ a1=1.90 # Float
 # Print the data using echo command
 echo a = $a
 
+# Also use ${a}, this is must
+}
+
