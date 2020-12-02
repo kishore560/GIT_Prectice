@@ -40,3 +40,5 @@ echo Today data is $DATE
 ADD=$((1+3))
 BIGEXPRESSION=$((1+2-3/4*5-6+7*8/9))
 echo $BIGEXPRESSION
+
+# This does not float values
