@@ -42,3 +42,9 @@ BIGEXPRESSION=$((1+2-3/4*5-6+7*8/9))
 echo $BIGEXPRESSION
 
 # This does not float values
+
+#promting the input can be done with read command
+
+read -p 'Enter your name: ' name
+
+echo "your name = $name"
