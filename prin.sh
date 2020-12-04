@@ -49,8 +49,6 @@ read -p 'Enter your name: ' name
 
 echo "your name = $name"
 
-#!/bin/bash
-
 # Reading the input from arguments can be done through special variables.
 # Special Variables for inputs are , $0 - $n , $*, $@, $#
 
